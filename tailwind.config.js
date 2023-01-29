@@ -10,7 +10,16 @@ module.exports = {
         lg: '1400px',
         xl: '1400px',
         '2xl' : '1400px'
-      }
+      },
+      // fontSize: {
+      //   sm: '12px',
+      //   base: '16px',
+      //   xl: '25px',
+      //   '2xl': '1.563rem',
+      //   '3xl': '1.953rem',
+      //   '4xl': '2.441rem',
+      //   '5xl': '3.052rem',
+      // }
     },
     extend: {
       // YAZI FONTLARI
@@ -19,6 +28,10 @@ module.exports = {
         montserrat : ['Montserrat','sans-serif'],
         // başlıklar vb yazı fontu
         poppins : ['Poppins','sans-serif'],
+      },
+      spacing: {
+        '128' : '700px',
+        'fullx' : '100%'
       }
     },
   },

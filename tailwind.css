@@ -3,12 +3,15 @@
 @tailwind utilities;
 
 
-@layer base{
-    h1,h2,h3,h4,h5,h6{
-        @apply font-poppins uppercase;
-    }
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
 
-    a{
+@layer base{
+    /* h1,h2,h3,h4,h5,h6{
+        @apply font-poppins;
+    } */
+
+    a,p{
         @apply font-montserrat
     }
 }

@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div>
             {/*  ! Header Section */}
-            <header className="bg-black py-6 lg:py-8 text-gray-600">
+            <header className="bg-black py-4 lg:py-8 text-gray-600">
                 {/* ! Header Container  */}
                 <div className="container flex items-center justify-between space-x-8 lg:space-x-20">
                     {/* Logo */}
