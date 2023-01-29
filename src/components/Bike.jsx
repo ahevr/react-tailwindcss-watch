@@ -6,19 +6,19 @@ const Bike = () => {
     return (
         <div>
             <section className="py-24 bg-black mt-[-10px] text-white">
-                <div className="container flex space-x-16">
+                <div className="container flex flex-col lg:flex-row lg:space-x-16 space-y-8 lg:space-y-0">
                     {/* Left Content */}
-                    <div className="basis-2/3 ">
+                    <div className="basis-2/3">
                         {/* Titles */}
-                        <div className="flex space-x-2 uppercase divide-x divide-orange-500 divide-opacity-60">
+                        <div className="flex space-x-2 uppercase divide-x divide-orange-500 divide-opacity-60 pl-10 lg:pl-0">
                             <h2 className='text-2xl text-orange-500'><a href=".">Latest</a></h2>
                             <h2 className='text-2xl pl-2 text-white hover:text-orange-500'><a href=".">Populer</a></h2>
                             <h2 className='text-2xl pl-2 text-white hover:text-orange-500'><a href=".">Hot</a></h2>
                         </div>
                         {/* images */}
-                        <div className="flex flex-wrap flex-row gap-2 items-center mt-5">
+                        <div className="flex flex-wrap flex-row gap-2 items-center mt-5 pl-10 lg:pl-0">
                             {/* image-1 */}
-                            <div className="group relative overflow-hidden flex basis-1/7 items-center flex-col">
+                            <div className="group relative overflow-hidden basis-10/12 md:basis-1/7 items-center flex-col">
                                 <img src={'https://picsum.photos/id/352/500/500'} alt="." className='group-hover:scale-110 group-hover:opacity-50 duration-500' />
                                 {/* Image Detail Desc Info */}
                                 <div className="absolute px-6 bottom-12">
@@ -31,7 +31,7 @@ const Bike = () => {
                                 </div>
                             </div>
                             {/* image-2 */}
-                            <div className="group relative overflow-hidden flex basis-1/7 items-center flex-col">
+                            <div className="group relative overflow-hidden basis-10/12 md:basis-1/7 items-center flex-col">
                                 <img src={'https://picsum.photos/id/353/500/500'} alt="." className='group-hover:scale-110 group-hover:opacity-50 duration-500' />
                                 {/* Image Detail Desc Info */}
                                 <div className="absolute px-6 bottom-12">
@@ -44,7 +44,7 @@ const Bike = () => {
                                 </div>
                             </div>
                              {/* image-3 */}
-                            <div className="group relative overflow-hidden flex basis-1/7 items-center flex-col">
+                            <div className="group relative overflow-hidden basis-10/12 md:basis-1/7 items-center flex-col">
                                 <img src={'https://picsum.photos/id/354/500/500'} alt="." className='group-hover:scale-110 group-hover:opacity-50 duration-500' />
                                 {/* Image Detail Desc Info */}
                                 <div className="absolute px-6 bottom-12">
@@ -57,7 +57,7 @@ const Bike = () => {
                                 </div>
                             </div>
                              {/* image-4 */}
-                            <div className="group relative overflow-hidden flex basis-1/7 items-center flex-col">
+                            <div className="group relative overflow-hidden basis-10/12 md:basis-1/7 items-center flex-col">
                                 <img src={'https://picsum.photos/id/355/500/500'} alt="." className='group-hover:scale-110 group-hover:opacity-50 duration-500' />
                                 {/* Image Detail Desc Info */}
                                 <div className="absolute px-6 bottom-12">
@@ -70,7 +70,7 @@ const Bike = () => {
                                 </div>
                             </div>
                              {/* image-5 */}
-                            <div className="group relative overflow-hidden flex basis-1/7 items-center flex-col">
+                            <div className="group relative overflow-hidden basis-10/12 md:basis-1/7 items-center flex-col">
                                 <img src={'https://picsum.photos/id/356/500/500'} alt="." className='group-hover:scale-110 group-hover:opacity-50 duration-500' />
                                 {/* Image Detail Desc Info */}
                                 <div className="absolute px-6 bottom-12">
@@ -83,7 +83,7 @@ const Bike = () => {
                                 </div>
                             </div>
                              {/* image-6 */}
-                            <div className="group relative overflow-hidden flex basis-1/7 items-center flex-col">
+                            <div className="group relative overflow-hidden basis-10/12 md:basis-1/7 items-center flex-col">
                                 <img src={'https://picsum.photos/id/357/500/500'} alt="." className='group-hover:scale-110 group-hover:opacity-50 duration-500' />
                                 {/* Image Detail Desc Info */}
                                 <div className="absolute px-6 bottom-12">
@@ -96,7 +96,7 @@ const Bike = () => {
                                 </div>
                             </div>
                              {/* image-7 */}
-                            <div className="group relative overflow-hidden flex basis-1/7 items-center flex-col">
+                            <div className="group relative overflow-hidden basis-10/12 md:basis-1/7 items-center flex-col">
                                 <img src={'https://picsum.photos/id/456/500/500'} alt="." className='group-hover:scale-110 group-hover:opacity-50 duration-500' />
                                 {/* Image Detail Desc Info */}
                                 <div className="absolute px-6 bottom-12">
@@ -109,7 +109,7 @@ const Bike = () => {
                                 </div>
                             </div>
                              {/* image-8 */}
-                            <div className="group relative overflow-hidden flex basis-1/7 items-center flex-col">
+                            <div className="group relative overflow-hidden basis-10/12 md:basis-1/7 items-center flex-col">
                                 <img src={'https://picsum.photos/id/789/500/500'} alt="." className='group-hover:scale-110 group-hover:opacity-50 duration-500' />
                                 {/* Image Detail Desc Info */}
                                 <div className="absolute px-6 bottom-12">
@@ -122,7 +122,7 @@ const Bike = () => {
                                 </div>
                             </div>
                             {/* image-9 */}
-                            <div className="group relative overflow-hidden flex basis-1/7 items-center flex-col">
+                            <div className="group relative overflow-hidden basis-10/12 md:basis-1/7 items-center flex-col">
                                 <img src={'https://picsum.photos/id/159/500/500'} alt="." className='group-hover:scale-110 group-hover:opacity-50 duration-500' />
                                 {/* Image Detail Desc Info */}
                                 <div className="absolute px-6 bottom-12">
@@ -137,8 +137,8 @@ const Bike = () => {
                         </div>
                     </div>
                     {/* Right Content */}
-                    <div className="basis-1/3" >
-                        <h2 className='text-2xl text-white hover:text-orange-500 uppercase divide-orange-500 divide-opacity-60'>
+                    <div className="basis-1/3 pl-10 lg:p-0">
+                        <h2 className='text-2xl text-white hover:text-orange-500 uppercase divide-orange-500 divide-opacity-60 '>
                             <a href=".">news</a>
                         </h2>
                         <div className="flex flex-col h-full justify-between space-y-3 mt-5">
@@ -148,7 +148,7 @@ const Bike = () => {
                                 </div>
                                 <div className="pl-5 basis-2/3">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptas!</p>
-                                    <div className="flex space-x-24">
+                                    <div className="flex space-x-16 lg:space-x-28">
                                         <p className='text-sm mt-2'>02/10/2023</p>
                                         <p className='text-sm mt-2'>admin</p>
                                     </div>
@@ -177,7 +177,7 @@ const Bike = () => {
                                 </div>
                                 <div className="pl-5 basis-2/3">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptas!</p>
-                                    <div className="flex space-x-28">
+                                    <div className="flex space-x-16 lg:space-x-28">
                                         <p className='text-sm mt-2'>02/10/2023</p>
                                         <p className='text-sm mt-2'>admin</p>
                                     </div>
@@ -200,7 +200,7 @@ const Bike = () => {
                                 </div>
                                 <div className="pl-5 basis-2/3">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptas!</p>
-                                    <div className="flex space-x-28">
+                                    <div className="flex space-x-16 lg:space-x-28">
                                         <p className='text-sm mt-2'>02/10/2023</p>
                                         <p className='text-sm mt-2'>admin</p>
                                     </div>
@@ -223,7 +223,7 @@ const Bike = () => {
                                 </div>
                                 <div className="pl-5 basis-2/3">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptas!</p>
-                                    <div className="flex space-x-28">
+                                    <div className="flex space-x-16 lg:space-x-28">
                                         <p className='text-sm mt-2'>02/10/2023</p>
                                         <p className='text-sm mt-2'>admin</p>
                                     </div>
@@ -246,7 +246,7 @@ const Bike = () => {
                                 </div>
                                 <div className="pl-5 basis-2/3">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptas!</p>
-                                    <div className="flex space-x-28">
+                                    <div className="flex space-x-16 lg:space-x-28">
                                         <p className='text-sm mt-2'>02/10/2023</p>
                                         <p className='text-sm mt-2'>admin</p>
                                     </div>
