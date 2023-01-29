@@ -32,6 +32,9 @@ module.exports = {
       spacing: {
         '128' : '700px',
         'fullx' : '100%'
+      },
+      flexBasis: {
+        '1/7': '31%',
       }
     },
   },
