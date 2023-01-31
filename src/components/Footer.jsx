@@ -32,7 +32,7 @@ const Footer = () => {
                     <div className="col-span-12 px-8 lg:pl-0 lg:col-span-3 mt-3 lg:mt-0">
                         <h3 className='text-xl text-white hover:text-orange-600 duration-500 uppercase font-montserrat border-b border-orange-600 mt-1'>Follow Us</h3>
                         <div className='grid grid-cols-2 gap-2 mt-5'>
-                            <a href='.'className='text-white hover:text-orange-600 transition duration-200'><AiOutlineFacebook/>Facebook</a>
+                            <a href='.'className='text-white hover:text-orange-600 transition duration-200'><AiOutlineFacebook/>Facebook;</a>
                             <a href='.'className='text-white hover:text-orange-600 transition duration-200'><AiOutlineTwitter/> Twitter</a>
                             <a href='.'className='text-white hover:text-orange-600 transition duration-200'><AiOutlineInstagram/> İnstagram</a>
                             <a href='.'className='text-white hover:text-orange-600 transition duration-200'><AiOutlineYoutube/> Youtube</a>
